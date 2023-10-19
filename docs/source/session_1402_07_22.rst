@@ -7,7 +7,7 @@ derivative vs gradient
 TODO
 
 A simple matrix derivative
------------------
+--------------------------
 
 .. math::
     \frac{\partial}{\partial X} (X^T A X) = (A+A^T)X
