@@ -6,3 +6,32 @@ derivative vs gradient
 
 TODO
 
+A simple matrix derivative
+-----------------
+
+.. math::
+    \frac{\partial}{\partial X} (X^T A X) = (A+A^T)X
+
+Lagrange
+--------
+
+.. math::
+    F = f(x,y) - \lambda g(x,y)
+
+TODO: add more details
+
+Covariance
+----------
+
+TODO
+
+Correlation
+-----------
+
+TODO
+
+PCA
+---
+
+TODO
+
