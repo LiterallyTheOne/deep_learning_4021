@@ -1,0 +1,8 @@
+Session 1402.07.22
+==================
+
+derivative vs gradient
+----------------------
+
+TODO
+
