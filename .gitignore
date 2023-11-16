@@ -157,3 +157,5 @@ cython_debug/
 data
 
 *.pth
+
+local_paths.yaml
