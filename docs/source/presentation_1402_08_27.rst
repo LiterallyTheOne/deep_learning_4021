@@ -109,15 +109,18 @@ file containing your **username** and **key**. Something like this:
     {"username":"your_username","key":"your_key"}
 
 
-Colab secrets
-^^^^^^^^^^^^^
 
-pass
-
-Copy secrets' contents to kaggle.json
+Create a new secret in google colab
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-pass
+First, We should open up google colab. Then in the left bar
+there is a button that looks like a **key**, we should click on it.
+After that a side bar will pop up that we sould select 
+**Add new secret**. For the **Name**, choose ``Kaggle`` and for the
+**Value** copy all the content of the **json** file that you took from 
+the previous section. After doing that, you should have something like this:
+
+.. image:: ../figures/colab_secret_key.png
 
 Use kaggle CLI to download data
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
