@@ -156,6 +156,19 @@ For example to download a dataset we can use the code below:
 
     more information in https://github.com/Kaggle/kaggle-api
 
+Transfer learning
+-----------------
+
+**Transfer learning** is a technic that we are using a pretrained
+model, on a new dataset with different purpose.
+
+
+.. note::
+
+    `transfer learning tensorflow <https://www.tensorflow.org/tutorials/images/transfer_learning>`_
+    `transfer learning keras <https://keras.io/guides/transfer_learning/>`_
+
+
 Train stage
 -----------
 
