@@ -166,6 +166,7 @@ model, on a new dataset with different purpose.
 .. note::
 
     `transfer learning tensorflow <https://www.tensorflow.org/tutorials/images/transfer_learning>`_
+
     `transfer learning keras <https://keras.io/guides/transfer_learning/>`_
 
 
