@@ -152,6 +152,26 @@ For example to download a dataset we can use the code below:
 
     ! kaggle datasets download -d marquis03/fruits-100
 
+.. note::
+
+    more information in https://github.com/Kaggle/kaggle-api
+
+Train stage
+-----------
+
+Open the notebook below in colab:
+
+https://github.com/LiterallyTheOne/deep_learning_4021/blob/master/presentation_1402_08_27/train_1402_08_27.ipynb
+
+
+Test stage
+-----------
+
+Open the notebook below in colab:
+
+https://github.com/LiterallyTheOne/deep_learning_4021/blob/master/presentation_1402_08_27/test_1402_08_27.ipynb
+
+
 
 
 
