@@ -1,0 +1,14 @@
+services:
+  jupyter-8888:
+    image: "tensorflow/tensorflow:latest-gpu-jupyter"
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: "nvidia"
+              count: all
+              capabilities: [ gpu ]
+    ports:
+      - 8888:8888
+    volumes:
+      - ./:/app
