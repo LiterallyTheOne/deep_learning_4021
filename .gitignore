@@ -159,3 +159,5 @@ data
 *.pth
 
 local_paths.yaml
+
+*.keras
