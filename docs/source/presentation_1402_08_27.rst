@@ -10,7 +10,7 @@ Introduction
 ------------
 
 As we saw in **Deep learning with python book**, a simple layout
-for a deep learning project looks likes the code below:
+for a deep learning project looks like the code below:
 
 
 .. code-block:: python
@@ -81,12 +81,33 @@ repository.
 Load data from Kaggle to google colab
 -------------------------------------
 
-pass
+
+Sign up to Kaggle
+^^^^^^^^^^^^^^^^^
+
+To load data from
+`Kaggle <https://www.kaggle.com/>`_
+to
+`google colab <https://colab.research.google.com/>`_,
+first we should have an account in kaggle.
+To do so we can go to https://www.kaggle.com, Then
+select the **register** button on top right of the window.
+After that, we can use our **gmail** to register to kaggle.
 
 Kaggle api token
 ^^^^^^^^^^^^^^^^
 
-pass
+After we registered successfully, we should get our
+**api token**. To get that token, we should go to
+`settings <https://www.kaggle.com/settings>`_ 
+Then in api section, click on **create new token**.
+This would give you a **json**
+file containing your **username** and **key**. Something like this:
+
+.. code-block:: json
+
+    {"username":"your_username","key":"your_key"}
+
 
 Colab secrets
 ^^^^^^^^^^^^^
