@@ -125,6 +125,36 @@ the previous section. After doing that, you should have something like this:
 Use kaggle CLI to download data
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-pass
+To be able to use Kaggle's api, we need to copy our **api token**
+that we already put it in the **google colab secrets** to
+``/root/.kaggle/kaggle.json``. To do so, we use the code below:
+
+.. code-block:: python
+
+    # imports
+    from pathlib import Path
+    from google.colab import userdata
+
+    kaggle_target_path = Path('/root/.kaggle/kaggle.json')
+
+    # make parent directory
+    kaggle_target_path.parent.mkdir(exist_ok=True, parents=True)
+
+    # write the content of our secret to that file
+    with open(kaggle_target_path,'w') as f:
+        f.write(userdata.get('Kaggle'))
+
+After successfully writing our **Kaggle's api token** to
+the target file, we are ready to use **Kaggle's api**. 
+For example to download a dataset we can use the code below:
+
+.. code-block:: 
+
+    ! kaggle datasets download -d marquis03/fruits-100
+
+
+
+
+
 
 
